@@ -8,6 +8,7 @@ template: overrides/main.html
 
 ### 7.0.6 <small>_ March 14, 2021</small>
 
+- Eat Ass
 - Added trailing slash to version selector URL
 - Added support for out-of-order anchors in table of contents
 - Added `extra.homepage` option to link logo to arbitrary URL
