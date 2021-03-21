@@ -55,5 +55,6 @@ nav:
       - Unlock Boot Manager: guides/bootmgr.md
       - Custom Firmware: guides/cfirm.md
     - API:
-      - getSystemInfo: api/getSystemInfo.md
+      - getSystemInfo();: api/getSystemInfo.md
+      - setSystemInfo();: api/setSystemInfo.md
   - Changelog: changelog.md
