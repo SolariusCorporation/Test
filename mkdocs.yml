@@ -1,178 +1,59 @@
-# Copyright (c) 2016-2021 Martin Donath <martin.donath@squidfunk.com>
 
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
+site_name: ZonePlus
+site_description: Documentation for ZonePlus
+site_author: Ben Horton
+site_url: https://1ForeverHD.github.io/ZonePlus/
 
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
-
-# Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
-site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project – customizable,
-  searchable, mobile-friendly, 40+ languages
-
-# Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: 1ForeverHD/ZonePlus
+repo_url: https://github.com/1ForeverHD/ZonePlus
 edit_uri: ""
 
-# Copyright
-copyright: Copyright &copy; 2016 - 2021 Martin Donath
-
-# Configuration
 theme:
+  logo: https://user-images.githubusercontent.com/51117782/104590568-71724f80-5663-11eb-9bc1-344fc2a4193c.png
+  favicon: https://user-images.githubusercontent.com/51117782/104590568-71724f80-5663-11eb-9bc1-344fc2a4193c.png
   name: material
-  custom_dir: material
-
-  # Static files
-  static_templates:
-    - 404.html
-
-  # Don't include MkDocs' JavaScript
-  include_search_page: false
-  search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
-  language: en
   features:
-    # - navigation.instant
-    - navigation.sections
     - navigation.tabs
+    #- navigation.instant
+    #- navigation.sections
   palette:
-    scheme: default
-    primary: indigo
-    accent: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+    primary: blue
+    accent: blue
+    scheme: preference
+  highlightjs: true
+  hljs_languages:
+    - lua
 
-# Plugins
-plugins:
+extra_javascript:
+  - javascripts/tags.js
 
-# Customization
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/1ForeverHD/
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://twitter.com/ForeverHD_
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCj9QhyYCvhAwiBHA5B88pYg
 
-# Extensions
 markdown_extensions:
   - admonition
-  - abbr
-  - attr_list
-  - def_list
-  - footnotes
-  - meta
-  - md_in_html
+  - codehilite:
+      guess_lang: false
   - toc:
       permalink: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+  - pymdownx.superfences
 
-# Page tree
 nav:
-  - Home: index.md
-  - Getting started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Troubleshooting: troubleshooting.md
-    - Data privacy: data-privacy.md
-    - Insiders: insiders.md
-    - License: license.md
-  - Setup:
-    - Changing the colors: setup/changing-the-colors.md
-    - Changing the fonts: setup/changing-the-fonts.md
-    - Changing the language: setup/changing-the-language.md
-    - Changing the logo and icons: setup/changing-the-logo-and-icons.md
-    - Setting up navigation: setup/setting-up-navigation.md
-    - Setting up site search: setup/setting-up-site-search.md
-    - Setting up site analytics: setup/setting-up-site-analytics.md
-    - Setting up versioning: setup/setting-up-versioning.md
-    - Setting up the header: setup/setting-up-the-header.md
-    - Setting up the footer: setup/setting-up-the-footer.md
-    - Adding a git repository: setup/adding-a-git-repository.md
-    - Adding a comment system: setup/adding-a-comment-system.md
-  - Reference:
-    - Abbreviations: reference/abbreviations.md
-    - Admonitions: reference/admonitions.md
-    - Buttons: reference/buttons.md
-    - Code blocks: reference/code-blocks.md
-    - Content tabs: reference/content-tabs.md
-    - Data tables: reference/data-tables.md
-    - Diagrams: reference/diagrams.md
-    - Footnotes: reference/footnotes.md
-    - Formatting: reference/formatting.md
-    - Icons + Emojis: reference/icons-emojis.md
-    - Images: reference/images.md
-    - Lists: reference/lists.md
-    - MathJax: reference/mathjax.md
-    - Meta tags: reference/meta-tags.md
-    - Variables: reference/variables.md
-  - Changelog:
-    - Material for MkDocs: changelog.md
-    - Material for MkDocs Insiders: changelog/insiders.md
-    - Guides:
-      - Upgrading: upgrading.md
-      - Deprecations: deprecations.md
-
-# Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
+  - Home:
+    - Introduction: index.md
+    - Examples: examples.md
+    - Installation: installation.md
+    - Method: method.md
+    - Third Parties: third_parties.md
+    - API:
+      - Zone: api/zone.md
+      - ZoneController: api/zone_controller.md
+    - Resources: resources.md
+  - Contributing: contributing.md
+  - Changelog: changelog.md
