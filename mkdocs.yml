@@ -50,13 +50,10 @@ markdown_extensions:
 nav:
   - Home:
     - Introduction: index.md
-    - Examples: examples.md
     - Installation: installation.md
-    - Method: method.md
-    - Third Parties: third_parties.md
+    - Guides:
+      - Unlock Boot Manager: guides/bootmgr.md
+      - Custom Firmware: guides/cfirm.md
     - API:
-      - Zone: api/zone.md
-      - ZoneController: api/zone_controller.md
-    - Resources: resources.md
-  - Contributing: contributing.md
+      - getSystemInfo: api/getSystemInfo.md
   - Changelog: changelog.md
