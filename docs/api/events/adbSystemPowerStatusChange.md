@@ -5,6 +5,9 @@
 !!! info
     ``adb:SystemPowerStatusChange`` does not get fired for shutting down, or powering on.
 
+!!! warning
+    ``adb:SystemPowerStatusChange`` will not fire if the listener is placed on the root user.
+
 -----
 
 ## ADB Examples
@@ -19,6 +22,6 @@ local event = "system-software://api/v1.1/Events/adb/SystemPowerStatusChange"
 event.OnEventInvoked:Connect()
 ```
 
-ADB Command:
+ADB Listener:
 
-``adb --connect-device[auto] --fire-ast[~\Request.ast]``
+``adb --connect-device[auto] --build[listener],[system-software://api/v1.1/Events/adb/SystemPowerStatusChange]``
