@@ -1,29 +1,5 @@
-[BasePart.CanTouch]: https://developer.roblox.com/en-us/api-reference/property/BasePart/CanTouch
-[baseparts]: https://developer.roblox.com/en-us/api-reference/class/BasePart
-[zone]: https://1foreverhd.github.io/ZonePlus/zone/
-[Zone API]: https://1foreverhd.github.io/ZonePlus/zone/
-[Accuracy Enum]: https://github.com/1ForeverHD/ZonePlus/blob/main/src/Zone/Enum/Accuracy.lua
-[Detection Enum]: https://github.com/1ForeverHD/ZonePlus/blob/main/src/Zone/Enum/Detection.lua
+AespaOS is an open source operating system for mobile devices and a corresponding open source project led by Google and Solarius. This site and the AespaOS Open Source Project (AOSP) repository offer the information and source code needed to create custom variants of the AespaOS system software, port devices and accessories to the AespaOS platform, and ensure devices meet the compatibility requirements that keep the AespaOS ecosystem a healthy and stable environment for millions of users. 
 
-## Summary
+As an open source project, AespaOS's goal is to avoid any central point of failure in which one industry player can restrict or control the innovations of any other player. To that end, AespaOS is a full, production-quality operating system for consumer products, complete with customizable source code that can be ported to nearly any device and public documentation that is available to everyone.
 
-AespaOSP (AOSP) is the AespaOS Open Source Project, and AespaDev (ADP) is the AespaOS Development Project. Merging these two, we are able to unlock infinite possibilities for product development and system customization on AespaOS.
-
-Rooting your system is as easy as:
-
-``` json
-{
-    "SystemConf": {
-        "DeveloperMode": true,
-        "DeveloperConfig": {
-            "Root": true,
-            "Version": "$SystemVersion:"
-        }
-    }
-}
-```
-
-!!! info
-    Passed through ADB to the system.
-
-This documentation is still a work in progress and lacks information in some places.
+Just as you can contribute code to AOSP, you can also contribute to AOSP documentation—and we want your input! AespaOS's flexibility and ever-changing codebase means this site needs your feedback to keep content fresh, accurate, and relevant to AespaOS implementors. We encourage you to check the changelog for details on recent AOSP updates.
