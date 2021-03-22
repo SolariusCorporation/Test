@@ -26,6 +26,8 @@ theme:
     - json
     - xml
     - java
+    - bash
+    - batch
 
 extra_javascript:
   - javascripts/tags.js
@@ -50,7 +52,8 @@ markdown_extensions:
 nav:
   - Home:
     - Introduction: index.md
-    - Installation: installation.md
+    - Downloads:
+      - Download the Source: downloads/download-the-source.md
     - Guides:
       - Unlock Boot Manager: guides/boot-mgr-unlock.md
       - Custom Firmware: guides/custom-firmware.md
