@@ -8,17 +8,17 @@ After installing the Repo Launcher, set up your client to access the AespaOS sou
 
 1. Create an empty directory to hold your working files. If you're using macOS, this has to be on a case-sensitive filesystem. Give it any name you like:
 
-```bash
-mkdir WORKING_DIRECTORY
-cd WORKING_DIRECTORY
-```
+    ```bash
+    mkdir WORKING_DIRECTORY
+    cd WORKING_DIRECTORY
+    ```
 
 2. Configure Git with your real name and email address. To use the Gerrit code-review tool, you need an email address that's connected with a registered Google account. Make sure that this is a live address where you can receive messages. The name that you provide here shows up in attributions for your code submissions. 
 
-```bash
-git config --global user.email you@example.com
-git config --global user.name Your Name
-```
+    ```bash
+    git config --global user.email you@example.com
+    git config --global user.name Your Name
+    ```
 
 3. Run repo init to get the latest version of Repo with its most recent bug fixes. You must specify a URL for the manifest, which specifies where the various repositories included in the AespaOS source are placed within your working directory.
     ```bash
