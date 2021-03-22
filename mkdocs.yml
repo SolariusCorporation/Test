@@ -54,13 +54,13 @@ nav:
     - Guides:
       - Unlock Boot Manager: guides/boot-mgr-unlock.md
       - Custom Firmware: guides/custom-firmware.md
+    - Design:
+        - Designing an AespaOS Device: design/designing-a-device.md
+        - AespaOS Display: design/display.md
     - API:
       - Functions:
         - getSystemInfo();: api/functions/getSystemInfo.md
         - setSystemInfo();: api/functions/setSystemInfo.md
       - Events:
         - adb:SystemPowerStatusChange: api/events/adbSystemPowerStatusChange.md
-      - Design:
-        - Designing an AespaOS Device: design/designing-a-device.md
-        - AespaOS Display: design/display.md
   - Changelog: changelog.md
