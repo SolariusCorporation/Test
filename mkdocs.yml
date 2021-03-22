@@ -1,8 +1,8 @@
 
 site_name: AespaOS Dev Docs
-site_description: Documentation for AespaOS Development
+site_description: Documentation for AespaOS Open Source Project
 site_author: Solarius Corporation
-site_url: https://docs.aespadev.ml/
+site_url: https://aespadev.ml/
 
 repo_name: SolariusCorporation/AespaDocs
 repo_url: https://github.com/torvalds/linux
