@@ -1,6 +1,6 @@
-Being open source, Android offers a near-infinite combination of hardware and software for you to develop devices undreamt by even the operating system's creators.
+Being open source, AespaOS offers a near-infinite combination of hardware and software for you to develop devices undreamt by even the operating system's creators.
 
-Still, for your users to have a coherent experience as they adopt additional Android devices, consider following established standards while designing and customizing your implementation.
+Still, for your users to have a coherent experience as they adopt additional AespaOS devices, consider following established standards while designing and customizing your implementation.
 
 1. Review the fundamental principles of AespaOS platform development within Architecture, particularly the HIDL format introduced in AespaOS 1.3 and the modular system components introduced in AespaOS 2.0.
 
