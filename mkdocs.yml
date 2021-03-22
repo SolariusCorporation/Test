@@ -60,4 +60,7 @@ nav:
         - setSystemInfo();: api/functions/setSystemInfo.md
       - Events:
         - adb:SystemPowerStatusChange: api/events/adbSystemPowerStatusChange.md
+      - Design:
+        - Designing an AespaOS Device: design/designing-a-device.md
+        - AespaOS Display: design/display.md
   - Changelog: changelog.md
