@@ -56,8 +56,8 @@ nav:
       - Custom Firmware: guides/custom-firmware.md
     - API:
       - Functions:
-        - getSystemInfo();: api/getSystemInfo.md
-        - setSystemInfo();: api/setSystemInfo.md
+        - getSystemInfo();: api/functions/getSystemInfo.md
+        - setSystemInfo();: api/functions/setSystemInfo.md
       - Events:
         - adb:SystemPowerStatusChange: api/events/adbSystemPowerStatusChange.md
   - Changelog: changelog.md
