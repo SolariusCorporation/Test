@@ -52,8 +52,8 @@ nav:
     - Introduction: index.md
     - Installation: installation.md
     - Guides:
-      - Unlock Boot Manager: guides/bootmgr.md
-      - Custom Firmware: guides/cfirm.md
+      - Unlock Boot Manager: guides/boot-mgr-unlock.md
+      - Custom Firmware: guides/custom-firmware.md
     - API:
       - getSystemInfo();: api/getSystemInfo.md
       - setSystemInfo();: api/setSystemInfo.md
